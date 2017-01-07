@@ -1,6 +1,6 @@
 {
     "name": "jeremykenedy/timezones",
-    "description": "create package example that returns timezones",
+    "description": "Laravel package example that returns timezones",
     "keywords": ["laravel", "timeszones"],
     "license": "MIT",
     "authors": [
@@ -21,7 +21,11 @@
             "jeremykenedy\\Timezones\\": "packages/jeremykenedy/timezones/src"
         }
     },
-
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.1-dev"
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
