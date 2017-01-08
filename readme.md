@@ -9,33 +9,39 @@
 This is a base example of a laravel package. The focus is on the framework of the package and the essential elements and not so much what it actually does. It returns the time and date in a Laravel application when going to the the URL `/timezones/{TIMEZONE}` from the projects base url.
 
 ## Installation
+
 1. From your projects root folder in terminal run:
-```
-   composer require jeremykenedy/timeszones
-```
+
+   ```
+      composer require jeremykenedy/timeszones
+   ```
+
 2. Register the package with laravel in `config/app.php` under the **Application Service Providers** section with the following:
 
-```
-jeremykenedy\Timezones\TimezonesServiceProvider::class,
-```
+   ```
+      jeremykenedy\Timezones\TimezonesServiceProvider::class,
+   ```
 
 3. (Optional) Publish the packages assets/views to be customized by running the following from your projects root folder:
-```
-   php artisan publish
-```
+
+   ```
+      php artisan publish
+   ```
 
 ## Usage
 
 ```
-http://your-projects-url/timezones/{{TIMEZONE}}
+   http://your-projects-url/timezones/{{TIMEZONE}}
 ```
+
 #### Usage Examples:
+
 ```
-http://lara-timezone.local/timezones/PST
-http://lara-timezone.local/timezones/MST
-http://lara-timezone.local/timezones/CST
-http://lara-timezone.local/timezones/EST
-http://lara-timezone.local/timezones/UTC
+   http://lara-timezone.local/timezones/PST
+   http://lara-timezone.local/timezones/MST
+   http://lara-timezone.local/timezones/CST
+   http://lara-timezone.local/timezones/EST
+   http://lara-timezone.local/timezones/UTC
 ```
 
 ## License
