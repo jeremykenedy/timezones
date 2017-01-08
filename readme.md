@@ -1,4 +1,4 @@
-# Timezones | A Laravel package - v0.0.3
+# Timezones | A Laravel package - v0.0.4
 
 [![Total Downloads](https://poser.pugx.org/jeremykenedy/timezones/d/total.svg)](https://packagist.org/packages/jeremykenedy/timezones)
 [![Latest Stable Version](https://poser.pugx.org/jeremykenedy/timezones/v/stable.svg)](https://packagist.org/packages/jeremykenedy/timezones)

@@ -14,8 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "jeremykenedy\\Timezones\\": "packages/jeremykenedy/timezones/src"
+            "jeremykenedy\\Timezones\\": "src/"
         }
     },
     "extra": {
