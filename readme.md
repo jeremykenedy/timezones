@@ -1,4 +1,4 @@
-# Timezones | A Laravel package - v0.0.4
+# Timezones | A Laravel package - v0.0.5
 
 [![Total Downloads](https://poser.pugx.org/jeremykenedy/timezones/d/total.svg)](https://packagist.org/packages/jeremykenedy/timezones)
 [![Latest Stable Version](https://poser.pugx.org/jeremykenedy/timezones/v/stable.svg)](https://packagist.org/packages/jeremykenedy/timezones)
@@ -9,12 +9,17 @@
 This is a base example of a laravel package. The focus is on the framework of the package and the essential elements and not so much what it actually does. It returns the time and date in a Laravel application when going to the the URL `/timezones/{TIMEZONE}` from the projects base url.
 
 ## Installation
+1. From your projects root folder in terminal run:
 ```
    composer require jeremykenedy/timeszones
 ```
-[packagist](https://packagist.org/packages/jeremykenedy/timezones)
+2. Register the package with laravel in `config/app.php` under the **Application Service Providers** section with the following:
 
-#### Optionally publish assets/views to be customized with
+```
+jeremykenedy\Timezones\TimezonesServiceProvider::class,
+```
+
+3. (Optional) Publish the packages assets/views to be customized by running the following from your projects root folder:
 ```
    php artisan publish
 ```
