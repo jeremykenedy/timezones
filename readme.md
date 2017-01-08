@@ -13,8 +13,8 @@ This is a base example of a laravel package. The focus is on the framework of th
 ```
    composer require jeremykenedy/timeszones
 ```
-2. Register the package with laravel in `config/app.php` under the **Application Service Providers** section with the following:
 
+2. Register the package with laravel in `config/app.php` under the **Application Service Providers** section with the following:
 ```
 jeremykenedy\Timezones\TimezonesServiceProvider::class,
 ```
